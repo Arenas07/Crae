@@ -174,7 +174,7 @@ main{
     display: flex;
     flex-direction: column;
     color: var(--color-1);
-    width: 40%;
+    width: 55%;
     align-items: center;
     gap: 41px;
 }
