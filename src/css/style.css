@@ -274,3 +274,54 @@ main{
     width: 100%;
     max-width: 162px;
 }
+
+#apoyanos{
+    display: flex;
+    flex-direction: row;
+    margin: 212px 160px 0;
+    gap: 37px;
+}
+
+.text__support{
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+    width: 63%;
+    align-items: flex-start;
+    color: var(--color-1);
+}
+
+.text__support h2{
+    font-size: 72px;
+    font-family: "RobotoCondensed-Bold";
+}
+
+.text__support p{
+    font-size: 36px;
+    font-family: "RobotoCondensed-Regular";
+}
+
+.images__support{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    align-items: center;
+}
+
+.images__support img{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 450px;
+}
+
+.images__support a{
+    text-decoration: none;
+    background-color: var(--color-1);
+    width: fit-content;
+    padding: 10px 43px;
+    color: var(--color-2);
+    border-radius: 30px;
+    font-size: 36px;
+    font-family: "RobotoCondensed-Bold";
+}
