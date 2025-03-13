@@ -7,3 +7,13 @@
     --color-6: #2C2C2C;
     --color-7: #707070;
 }
+
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    src: url(../storage/fonts/Roboto-Condensed/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: "RobotoCondensed-Bold";
+    src: url(../storage/fonts/Roboto-Condensed/RobotoCondensed-Bold.ttf);
+}
