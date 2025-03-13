@@ -162,3 +162,115 @@ main{
     max-width: 62px;
     height: 62px;
 }
+
+#como__jugar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-1);
+    width: 40%;
+    align-items: center;
+    gap: 41px;
+}
+
+.description h2{
+    font-size: 64px;
+    font-family: "RobotoCondensed-Bold";
+}
+
+.description p{
+    font-size: 36px;
+    font-family: "RobotoCondensed-Regular";
+    text-align: center;
+
+}
+
+.steps{
+    display: flex;
+    flex-direction: column;
+    padding: 0 170px;
+    gap: 83px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.steps h3{
+    font-size: 64px;
+    font-family: " RobotoCondensed-Bold";
+    color: var(--color-2);
+    background-color: var(--color-1);
+    border-radius: 50%;
+    padding: 12px 35px;
+}
+
+.steps p{
+    font-size: 28px;
+    color: var(--color-1);
+    font-family: "RobotoCondensed-Regular";
+}
+.step_1 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.step_1 img{
+    width: 100%;
+    max-width: 162px;
+    
+}
+
+.step_2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.step_2 img{
+    width: 100%;
+    max-width: 141px;
+}
+
+.step_3 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.step_3 img{
+    width: 100%;
+    max-width: 162px;
+}
+
+.step_4 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.step_4 img{
+    width: 100%;
+    max-width: 150px;
+}
+
+.step_5 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.step_5 img{
+    width: 100%;
+    max-width: 162px;
+}
