@@ -18,6 +18,13 @@ header{
 
 }
 
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+}
+
 .logo{
     display: flex;
     flex-direction: row;
@@ -46,20 +53,40 @@ header{
     right: -20px;
 }
 
-.links{
+.touch__links{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 52%;
+    width: fit-content;
+    transform: translateX(-15%);
+    gap: 14%;
 }
 
-.links a{
+.touch__links a{
+    text-wrap: nowrap;
     text-decoration: none;
     color: var(--color-1);
     font-family: "RobotoCondensed-Bold";
     font-size: 24px;
 
+}
+
+.links img{
+    transform: translateX(-12.5%);
+    width: 137%;
+}
+.selected{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected img{
+    width: 100%;
+    transform: translateX(-1%);
+    max-width: 60px;
+    height: 100%;
+    max-height: 50px;
 }
 
 .theme__modes{
@@ -409,4 +436,5 @@ main{
     font-size: 96px;
     font-family: "robotoCondensed-Regular";
     color: var(--color-1);
+    font-weight: 100;
 }
